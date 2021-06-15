@@ -5,4 +5,4 @@
 ### Return a JSON object with the key “return_string” and a string containing every third letter from the original string
 
 ## Test:
--To see expected behavior you can test against a current working example with the command: curl -X POST https://lyft-interview-test.glitch.me/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
+-Test the example locally with the command: curl -X POST https://localhost:8080/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
